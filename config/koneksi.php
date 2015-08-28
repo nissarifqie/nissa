@@ -7,8 +7,8 @@
 //$database = "goslog_dev";
 
 $server = "localhost";
-$username = "goslog";
-$password = "itgoslog12";
+$username = "root";
+$password = "";
 $database = "goslog";
 
 // Koneksi dan memilih database di server
