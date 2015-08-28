@@ -1,0 +1,988 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face {
+    font-family: 'IstokWebRegular';
+    src: url('font/IstokWeb-Regular-webfont.eot');
+    src: url('font/IstokWeb-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/IstokWeb-Regular-webfont.woff') format('woff'),
+         url('font/IstokWeb-Regular-webfont.ttf') format('truetype'),
+         url('font/IstokWeb-Regular-webfont.svg#IstokWebRegular') format('svg');
+    font-style: bold;
+
+}
+
+
+@font-face {
+    font-family: 'TendernessRegular';
+    src: url('font/Tenderness-webfont.eot');
+    src: url('font/Tenderness-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Tenderness-webfont.woff') format('woff'),
+         url('font/Tenderness-webfont.ttf') format('truetype'),
+         url('font/Tenderness-webfont.svg#TendernessRegular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+
+
+
+body {
+	margin:0 auto;
+	padding:0;
+	background:#e9e2d8;
+}
+
+a:link {
+color:#0000ff;
+text-decoration:none;
+}
+
+a:hover {
+color:#0000ff;
+text-decoration : none;
+}
+
+a:visited {
+color:#0000ff;
+text-decoration : none;
+}
+
+
+#container {
+/*	max-width: 1200px;
+	min-width: 960px;*/
+	width:96%;
+	margin:0 auto;
+	margin-bottom:25px;
+	background:url(../images/header.png) repeat;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0px 7px 7px #000000;
+	-webkit-box-shadow: 0px 7px 7px #000000;
+	box-shadow: 0px 7px 7px #000000;
+	margin-top: 20px;
+}
+
+.kanan {
+	padding-left:500px;
+}
+
+#header {
+	background:url(../images/header.png) repeat;
+	text-align:right;
+	padding:20px;
+	color:#1f4a83
+}
+
+#menu {
+	background:url(../images/header1.png) repeat;
+	height:55px;
+}
+
+#content {
+	background:#fcfcfb ;
+}
+
+#footer {
+	background:url(../images/header.png) repeat;
+	padding : 20px;
+	text-align:center;
+	color:#dcdfe3 ;
+	font-family: 'IstokWebRegular';
+	font-size :12px;
+	text-decoration: underline;
+}
+
+.home {
+	height : 250px;
+}
+
+.judul {
+	font-size:34px;
+	font-family: 'TendernessRegular';
+	color:#dcdfe3 ;
+	padding:10px;
+	
+}
+
+.judul1 {
+	font-size:18px;
+	font-weight:bold;
+	font-family: 'IstokWebRegular';
+	padding:0px;	
+}
+
+.judul2 {
+	font-size:28px;
+	font-family: 'TendernessRegular';
+	color:#dcdfe3 ;
+}
+
+.clear {
+	clear:both;
+}
+
+.nav {
+	padding-top:15px;
+	padding-left:10px;
+}
+
+.nav li {
+	list-style:none;
+	display:block;
+	float: left;
+	padding-right:10px;
+}
+
+.nav li a {
+	background:#b2b4b7;
+	padding:10px;
+	text-decoration:none;
+	color:#000;
+	font-size:14px;
+	font-family: 'IstokWebRegular';
+}
+
+.nav li ul {
+	padding-left:0px;
+	margin-top:5px;
+	position:absolute;
+	-webkit-transform: translate3d(0px, 0px, 1px);
+	display:none;
+}
+
+.nav li ul li {
+	float:none;
+	border-bottom:1px solid #9b9da0;
+	padding-top:5px;
+	padding-bottom:5px;
+	background:#b2b4b7;
+	width:150px;
+	color:#b2b4b7;
+	
+}
+.nav li ul li a {
+	padding:0;
+	display:block;
+	background:none;
+	padding-left:5px;
+
+}
+
+
+
+
+
+/* atribut */
+
+.border {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	 border-radius: 3px;
+}
+
+.link:hover {
+		-webkit-transition: background 2s ease;
+		-moz-transition: background 2s ease;
+        -ms-transition: background 2s ease;
+        -o-transition: background 2s ease;
+		transition: background 2s ease;
+}
+
+.linkback:hover {
+	  background:#6d7784;
+	  color:#b2b4b7;
+}
+
+.li:hover {
+	  color:#004a80;
+}
+
+
+
+/* FORM dan TABEL */
+
+.form {
+	padding:20px;
+}
+
+.input {
+	width :300px;
+}
+
+.nominal {
+	text-align:right;
+}
+
+
+
+.form hr {
+	border:1px solid #1f4a83;
+}
+
+.tabel
+{
+	border-collapse:collapse;
+	margin-top:10px;
+	width:100%;
+}
+
+.tabel thead {
+	background:url(../images/header.png) repeat;
+}
+
+.tabel td 
+{
+	border-collapse:collapse;
+	border:1px solid;
+	padding:4px;
+	 font-family: 'IstokWebRegular';
+	 font-size:13px;
+	 vertical-align:top;
+}
+
+.tabel th
+{
+	border-collapse:collapse;
+	border:1px solid;
+	padding:4px;
+	 font-family: 'IstokWebRegular';
+	 font-size:13px;
+	 vertical-align:top;
+	 font-weight:bold;
+}
+
+.head {
+	font-family: 'IstokWebRegular';
+	font-size:18px;
+	padding:5px;
+	background:url(../images/header1.png) repeat;
+	padding-left: 10px;
+	color:#dcdfe3 ;
+	text-transform:uppercase;
+}
+
+.tabelform td {
+	font-family: 'IstokWebRegular';
+	font-size:13px;
+	color:#000;
+}
+
+.tabpad td {
+	padding-bottom : 5px;
+	padding-right : 20px;
+}
+
+.center  {
+	text-align : center ;
+}
+
+.cent {
+	width : 400px;
+	margin : 0 auto ;
+}
+
+.tabelform input {
+	color:#000;
+	padding:5px;
+}
+
+.tabelform textarea {
+	 font-family: 'IstokWebRegular';
+	 font-size:13px;
+	 vertical-align:top;
+}
+
+
+.tabelform select {
+	color:#000;
+	padding:5px;
+	width:200px;
+}
+
+.margin {
+	margin-top : 20px;
+}
+
+.tabel1
+{
+	border-collapse:collapse;
+	margin-top:10px;
+	width:50%;
+}
+
+.tabel1 thead {
+	background:url(../images/header.png) repeat;
+}
+
+.tabel1 td 
+{
+	border-collapse:collapse;
+	border:1px solid;
+	padding:4px;
+	 font-family: 'IstokWebRegular';
+	 font-size:13px;
+	 vertical-align:top;
+}
+
+.tabel1 th
+{
+	border-collapse:collapse;
+	border:1px solid;
+	padding:4px;
+	 font-family: 'IstokWebRegular';
+	 font-size:13px;
+	 vertical-align:top;
+	 font-weight:bold;
+}
+
+.formtrans
+{
+	border-collapse:collapse;
+	margin-top:10px;
+	width:100%;
+	height:auto%;
+}
+
+
+.formtrans td 
+{
+	border-collapse:collapse;
+	padding:4px;
+	 font-family: 'IstokWebRegular';
+	 font-size:13px;
+	 vertical-align:top;
+}
+
+
+
+
+
+.tabelmodif {
+margin:0px;padding:0px;
+width:100%;	box-shadow: 5px 5px 5px #888888;
+border:1px solid #ffffff;
+
+-moz-border-radius-bottomleft:0px;
+-webkit-border-bottom-left-radius:0px;
+border-bottom-left-radius:0px;
+
+-moz-border-radius-bottomright:0px;
+-webkit-border-bottom-right-radius:0px;
+border-bottom-right-radius:0px;
+
+-moz-border-radius-topright:0px;
+-webkit-border-top-right-radius:0px;
+border-top-right-radius:0px;
+
+-moz-border-radius-topleft:0px;
+-webkit-border-top-left-radius:0px;
+border-top-left-radius:0px;
+}
+
+.tabelmodif table{
+width:100%;
+height:100%;
+margin:0px;padding:0px;
+}.tabelmodif tr:hover td{
+background-color:#e5e5e5;
+}
+.tabelmodif th {
+background:url(../images/header.png) repeat;
+font-size:14px;
+font-family:Tahoma;
+font-weight:bold;
+color:#000000;
+vertical-align:middle;
+}
+.tabelmodif td{
+vertical-align:middle;
+background:-o-linear-gradient(bottom, #ffffff 5%, #e5e5e5 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #e5e5e5) ); 	background:-moz-linear-gradient( center top, #ffffff 5%, #e5e5e5 100% );	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#e5e5e5");	background: -o-linear-gradient(top,#ffffff,e5e5e5);
+background-color:#ffffff;
+border:1px solid #e5e5e5;
+border-width:0px 1px 1px 0px;
+padding:7px;
+font-size:12px;
+font-family:Tahoma;
+font-weight:normal;
+color:#000000;
+}
+
+
+
+.tabelmodif1 {
+margin:0px;padding:0px;
+width:50%;	box-shadow: 5px 5px 5px #888888;
+border:1px solid #ffffff;
+
+-moz-border-radius-bottomleft:0px;
+-webkit-border-bottom-left-radius:0px;
+border-bottom-left-radius:0px;
+
+-moz-border-radius-bottomright:0px;
+-webkit-border-bottom-right-radius:0px;
+border-bottom-right-radius:0px;
+
+-moz-border-radius-topright:0px;
+-webkit-border-top-right-radius:0px;
+border-top-right-radius:0px;
+
+-moz-border-radius-topleft:0px;
+-webkit-border-top-left-radius:0px;
+border-top-left-radius:0px;
+}
+
+.tabelmodif1 table{
+width:50%;
+height:100%;
+margin:0px;padding:0px;
+}.tabelmodif tr:hover td{
+background-color:#e5e5e5;
+}
+.tabelmodif1 th {
+background:url(../images/header.png) repeat;
+font-size:14px;
+font-family:Tahoma;
+font-weight:bold;
+color:#000000;
+vertical-align:middle;
+}
+.tabelmodif1 td{
+vertical-align:middle;
+background:-o-linear-gradient(bottom, #ffffff 5%, #e5e5e5 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #e5e5e5) ); 	background:-moz-linear-gradient( center top, #ffffff 5%, #e5e5e5 100% );	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#e5e5e5");	background: -o-linear-gradient(top,#ffffff,e5e5e5);
+background-color:#ffffff;
+border:1px solid #e5e5e5;
+border-width:0px 1px 1px 0px;
+padding:7px;
+font-size:12px;
+font-family:Tahoma;
+font-weight:normal;
+color:#000000;
+}
+
+
+
+.detailtrans {
+margin:0px;padding:0px;
+width:100%;	
+border:1px solid #ffffff;
+}
+.detailtrans table{
+width:100%;
+height:100%;
+margin:0px;padding:0px;
+}.detailtrans tr:hover td{
+text-decoration:none;
+}
+.detailtrans td{
+vertical-align:middle;
+border:1px solid #e5e5e5;
+border-width:0px 1px 1px 0px;
+padding:7px;
+font-size:12px;
+font-family:Tahoma;
+font-weight:normal;
+color:#000000;
+}
+
+
+
+
+/* Button 6 */
+.btn-6 {
+	color: #fff;
+	background: #226fbe;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+.btn-6:active {
+	top: 2px;
+}
+
+/* Button 6a */
+.btn-6a {
+	border: 4px solid #226fbe;
+}
+
+.btn-6a:hover {
+	background: transparent;
+	color: #226fbe;
+}
+
+
+
+.paging_two_button .ui-button {
+	float: left;
+	cursor: pointer;
+	* cursor: hand;
+}
+
+.paging_full_numbers .ui-button {
+	padding: 2px 6px;
+	margin: 0;
+	cursor: pointer;
+	* cursor: hand;
+	color: #333 !important;
+}
+
+.dataTables_paginate .ui-button {
+	margin-right: -0.1em !important;
+}
+
+.paging_full_numbers {
+	width: 350px !important;
+}
+
+.dataTables_wrapper .ui-toolbar {
+	padding: 5px;
+}
+
+.dataTables_paginate {
+	width: auto;
+}
+
+.dataTables_info {
+	padding-top: 3px;
+}
+
+table.display thead th {
+	padding: 3px 0px 3px 10px;
+	cursor: pointer;
+	* cursor: hand;
+}
+
+div.dataTables_wrapper .ui-widget-header {
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 70%;
+	line-height: 1.45em;
+}
+
+
+/*
+ * Sort arrow icon positioning
+ */
+table.display thead th div.DataTables_sort_wrapper {
+	position: relative;
+	padding-right: 20px;
+}
+
+table.display thead th div.DataTables_sort_wrapper span {
+	position: absolute;
+	top: 50%;
+	margin-top: -8px;
+	right: 0;
+	
+}
+
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *
+ * Everything below this line is the same as demo_table.css. This file is
+ * required for 'cleanliness' of the markup
+ *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * DataTables features
+ */
+
+
+.dataTables_processing {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	margin-left: -125px;
+	border: 1px solid #ddd;
+	text-align: center;
+	color: #999;
+	font-size: 10px;
+	padding: 2px 0;
+}
+
+.dataTables_length {
+	width: 40%;
+	float: left;
+}
+
+.dataTables_filter {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+.dataTables_info {
+	width: 50%;
+	float: left;
+}
+
+.dataTables_paginate {
+	float: right;
+	text-align: right;
+}
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * DataTables display
+ */
+table.display {
+	margin: 0 auto;
+	width: 100%;
+	clear: both;
+	border-collapse: collapse;
+	font: 80%/1.45em "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+}
+
+table.display tfoot th {
+	padding: 3px 0px 3px 10px;
+	font-weight: bold;
+	font-weight: normal;         
+}
+
+table.display tr.heading2 td {
+	border-bottom: 1px solid #aaa;
+}
+
+table.display td {
+	padding: 3px 10px;
+}
+
+table.display td.center {
+	text-align: center;
+}
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * DataTables sorting
+ */
+
+.sorting_asc {
+	background: url('../images/sort_asc.png') no-repeat center right;
+}
+
+.sorting_desc {
+	background: url('../images/sort_desc.png') no-repeat center right;
+}
+
+.sorting {
+	background: url('../images/sort_both.png') no-repeat center right;
+}
+
+.sorting_asc_disabled {
+	background: url('../images/sort_asc_disabled.png') no-repeat center right;
+}
+
+.sorting_desc_disabled {
+	background: url('../images/sort_desc_disabled.png') no-repeat center right;
+}
+
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * DataTables row classes
+ */
+table.display tr.odd.gradeA {
+	background-color: #ddffdd;
+}
+
+table.display tr.even.gradeA {
+	background-color: #eeffee;
+}
+
+
+
+
+table.display tr.odd.gradeA {
+	background-color: #ddffdd;
+}
+
+table.display tr.even.gradeA {
+	background-color: #eeffee;
+}
+
+table.display tr.odd.gradeC {
+	background-color: #ddddff;
+}
+
+table.display tr.even.gradeC {
+	background-color: #eeeeff;
+}
+
+table.display tr.odd.gradeX {
+	background-color: #ffdddd;
+}
+
+table.display tr.even.gradeX {
+	background-color: #ffeeee;
+}
+
+table.display tr.odd.gradeU {
+	background-color: #ddd;
+}
+
+table.display tr.even.gradeU {
+	background-color: #eee;
+}
+
+
+tr.odd {
+	background-color: #E2E4FF;
+}
+
+tr.even {
+	background-color: white;
+}
+
+
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Misc
+ */
+.dataTables_scroll {
+	clear: both;
+}
+
+.dataTables_scrollBody {
+	-webkit-overflow-scrolling: touch;
+}
+
+.top, .bottom {
+	padding: 15px;
+	background-color: #F5F5F5;
+	border: 1px solid #CCCCCC;
+}
+
+.top .dataTables_info {
+	float: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.dataTables_empty {
+	text-align: center;
+}
+
+tfoot input {
+	margin: 0.5em 0;
+	width: 100%;
+	color: #444;
+}
+
+tfoot input.search_init {
+	color: #999;
+}
+
+td.group {
+	background-color: #d1cfd0;
+	border-bottom: 2px solid #A19B9E;
+	border-top: 2px solid #A19B9E;
+}
+
+td.details {
+	background-color: #d1cfd0;
+	border: 2px solid #A19B9E;
+}
+
+
+.example_alt_pagination div.dataTables_info {
+	width: 40%;
+}
+
+.paging_full_numbers a.paginate_button,
+ 	.paging_full_numbers a.paginate_active {
+	border: 1px solid #aaa;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 2px 5px;
+	margin: 0 3px;
+	cursor: pointer;
+	*cursor: hand;
+	color: #333 !important;
+}
+
+.paging_full_numbers a.paginate_button {
+	background-color: #ddd;
+}
+
+.paging_full_numbers a.paginate_button:hover {
+	background-color: #ccc;
+	text-decoration: none !important;
+}
+
+.paging_full_numbers a.paginate_active {
+	background-color: #99B3FF;
+}
+
+table.display tr.even.row_selected td {
+	background-color: #B0BED9;
+}
+
+table.display tr.odd.row_selected td {
+	background-color: #9FAFD1;
+}
+
+
+/*
+ * Sorting classes for columns
+ */
+/* For the standard odd/even */
+tr.odd td.sorting_1 {
+	background-color: #D3D6FF;
+}
+
+tr.odd td.sorting_2 {
+	background-color: #DADCFF;
+}
+
+tr.odd td.sorting_3 {
+	background-color: #E0E2FF;
+}
+
+tr.even td.sorting_1 {
+	background-color: #EAEBFF;
+}
+
+tr.even td.sorting_2 {
+	background-color: #F2F3FF;
+}
+
+tr.even td.sorting_3 {
+	background-color: #F9F9FF;
+}
+
+
+/* For the Conditional-CSS grading rows */
+/*
+ 	Colour calculations (based off the main row colours)
+  Level 1:
+		dd > c4
+		ee > d5
+	Level 2:
+	  dd > d1
+	  ee > e2
+ */
+tr.odd.gradeA td.sorting_1 {
+	background-color: #c4ffc4;
+}
+
+tr.odd.gradeA td.sorting_2 {
+	background-color: #d1ffd1;
+}
+
+tr.odd.gradeA td.sorting_3 {
+	background-color: #d1ffd1;
+}
+
+tr.even.gradeA td.sorting_1 {
+	background-color: #d5ffd5;
+}
+
+tr.even.gradeA td.sorting_2 {
+	background-color: #e2ffe2;
+}
+
+tr.even.gradeA td.sorting_3 {
+	background-color: #e2ffe2;
+}
+
+tr.odd.gradeC td.sorting_1 {
+	background-color: #c4c4ff;
+}
+
+tr.odd.gradeC td.sorting_2 {
+	background-color: #d1d1ff;
+}
+
+tr.odd.gradeC td.sorting_3 {
+	background-color: #d1d1ff;
+}
+
+tr.even.gradeC td.sorting_1 {
+	background-color: #d5d5ff;
+}
+
+tr.even.gradeC td.sorting_2 {
+	background-color: #e2e2ff;
+}
+
+tr.even.gradeC td.sorting_3 {
+	background-color: #e2e2ff;
+}
+
+tr.odd.gradeX td.sorting_1 {
+	background-color: #ffc4c4;
+}
+
+tr.odd.gradeX td.sorting_2 {
+	background-color: #ffd1d1;
+}
+
+tr.odd.gradeX td.sorting_3 {
+	background-color: #ffd1d1;
+}
+
+tr.even.gradeX td.sorting_1 {
+	background-color: #ffd5d5;
+}
+
+tr.even.gradeX td.sorting_2 {
+	background-color: #ffe2e2;
+}
+
+tr.even.gradeX td.sorting_3 {
+	background-color: #ffe2e2;
+}
+
+tr.odd.gradeU td.sorting_1 {
+	background-color: #c4c4c4;
+}
+
+tr.odd.gradeU td.sorting_2 {
+	background-color: #d1d1d1;
+}
+
+tr.odd.gradeU td.sorting_3 {
+	background-color: #d1d1d1;
+}
+
+tr.even.gradeU td.sorting_1 {
+	background-color: #d5d5d5;
+}
+
+tr.even.gradeU td.sorting_2 {
+	background-color: #e2e2e2;
+}
+
+tr.even.gradeU td.sorting_3 {
+	background-color: #e2e2e2;
+}
+
+
+/*
+ * Row highlighting example
+ */
+.ex_highlight #example tbody tr.even:hover, #example tbody tr.even td.highlighted {
+	background-color: #ECFFB3;
+}
+
+.ex_highlight #example tbody tr.odd:hover, #example tbody tr.odd td.highlighted {
+	background-color: #E6FF99;
+}
+
